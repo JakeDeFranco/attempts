@@ -1,6 +1,495 @@
-html,body,h1,h2,h3,h4,h5,h6{
+html, body {
+    background-color: #d1d1e0;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.fis-color { background-color: #94c04c;}
+.bmo-color { background-color: #297ab3;}
+.thinnox-color { background-color: #f4633e;}
+.points-color { background-color: #43caf5;}
+.utm-color { background-color: #012050;}
+.other-color { background-color: #ffff;}
+
+
+
+body {
+    background-color: white;
+    color: black;
     font-family: "Roboto", sans-serif;
 }
 
-.random-class{
+header {
+    top: 0;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    z-index:2;
+}
+
+.website-title {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+
+.website-title a:hover, .website-title a:visited {
+    color: black;
+}
+
+.floating-container {
+    float: left;
+    padding-left: 8px;
+}
+
+.global-nav {
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+
+.global-nav-ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.header-tab, .active-header-tab {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+
+.active-header-tab {
+    background-color: red;
+    color: white;
+}
+
+.active-header-tab a:hover {
+    color:blue;
+}
+
+.main-container {
+    display: inline-block;
+    z-index:1;
+    text-align: left;
+    width: 100%;
+    padding: 0;
+    min-height: 100%;
+    min-height: 900px;
+    background-color: white;
+}
+
+aside {
+    margin-right: 15px;
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+aside img {
+    width: 90%;
+}
+
+aside .sidenav {
+    position: fixed;
+    z-index: 1;
+    background-color: #009688;
+    overflow-x: hidden;
+    width: 30%;
+    text-align: center;
+}
+
+aside .sidenav ul {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #000!important;
+}
+
+aside .sidenav ul li {
+    text-align: center;
+    border-bottom: 1px solid #000!important;
+}
+
+aside .sidenav ul li:last-child {
+    border-bottom:0!important;
+}
+
+aside .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+aside .sidenav a:hover {
+    color: red;
+}
+
+article {
+    height: 100%;
+    width: 67%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 20px;
+}
+
+.home-article {
+    margin-top: 350px;
+    margin-left: 50px;
+    margin-bottom: 300px;
+}
+
+.resume-article {
+    border: none;
+    min-height: 100%;
+    float: right;
+}
+
+.article-sub-section {
+    width: 100%;
+    display:block;
+}
+
+:target::before {
+  content: "";
+  display: block;
+  height: 170px; /* fixed header height*/
+  margin: -170px 0 0; /* negative fixed header height */
+}
+
+.status-bar-container {
+    width: 47%;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.status-bar-title {
+    width: 100%;
+    color: #009688;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+}
+
+.status-bar-title i {
+    font-size: 25px;
+}
+
+.blank-status-bar{
+    background-color:#f1f1f1;
+    border-radius:16px;
+    font-size: 12px;
+    width: 85%;
+    display: block;
+}
+
+.status-bar {
+    width:80%;
+    border-radius:16px;
+    text-align: center;
+    background-color:#009688;
+    display:block;
+}
+
+.status-bar-text {
+    color:#fff;
+    text-align:center;
+}
+
+.tablink {
+    background-color: ##009688;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+    height: 170px;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: white;
+    background-color: #009688;
+    display: none;
+    padding: 100px 20px;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.floating-side-img, .small-floating-side-img {
+    color: white;
+    width: 25%;
+    padding: 20px;
+    float: left;
+    display: inline-block;
+    vertical-align: center;
+    margin-top: 100px;
+}
+
+.small-floating-side-img {
+    margin-top: 50px;
+}
+
+.floating-side-img {
+    color: white;
+    width: 25%;
+    padding: 20px;
+    float: left;
+    display: inline-block;
+    vertical-align: center;
+    margin-top: 100px;
+}
+
+.floating-description {
+    color: white;
+    height: inherit;
+    width: 73%;
+    padding-left: 10px;
+    float: left;
+    display: inline-block;
+    text-align: left;
+}
+
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+}
+
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: #f1f1f1;
+    text-align: center;
+    display: block;
+    width:100%;
+    z-index:1;
+    margin-top: 25px;
+    height: 160px;
+    bottom: 0;
+    position: relative;
+}
+
+.panel {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer-tab {
+    float: left;
+    width: 50%;
+}
+
+.large-footer-subsection {
+    float: left;
+    width: 250px;
+    margin-left: 200px;
+}
+
+.large-footer-subsection:last-child {
+    margin-left: 0px;
+}
+
+.half-footer-subsection {
+    float: left;
+    width: 50%;
+}
+
+.small-footer-subsection {
+    float: left;
+    width: 250px;
+    margin-left: 200px;
+}
+
+.small-footer-subsection:last-child {
+    margin-left: 0px;
+}
+
+.footer-ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-li-padding {
+    padding-bottom: 5px;;
+}
+
+i {
+    margin-right:16px!important;
+}
+
+.small-icon {
+    margin-right:20px!important;
+    margin-left:5px!important;
+}
+
+a {
+    color:inherit;
+}
+
+a:link, a:visited {
+    color:inherit;
+    text-decoration:none;
+}
+
+
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+
+.website-tiny{font-size:10px!important;}
+.website-small{font-size:12px!important;}
+.website-medium{font-size:15px!important;}
+.website-large{font-size:18px!important;}
+.website-xlarge{font-size:24px!important;}
+.website-xxlarge{font-size:36px!important;}
+.website-xxxlarge{font-size:48px!important;}
+.website-jumbo{font-size:64px!important;}
+.website-left-align{text-align:left!important;}
+.website-right-align{text-align:right!important;}
+.website-justify{text-align:justify!important;}
+.website-center{text-align:center!important;}
+.website-border{border:1px solid #000!important;}
+.website-border-red{border:1px solid red!important;}
+.website-border-blue{border:1px solid blue!important;}
+.website-border-green{border:1px solid green!important;}
+.website-no-border{0!important;}
+.website-margin{margin:16px!important;}
+.website-margin-top{margin-top:16px!important;}
+.website-margin-bottom{margin-bottom:16px!important;}
+.website-margin-left{margin-left:16px!important;}
+.website-margin-large-left{margin-left:24px!important;}
+.website-margin-right{margin-right:16px!important;}
+.website-padding-small{padding:4px 8px!important;}
+.website-padding{padding:8px 16px!important;}
+.website-padding-large{padding:12px 24px!important;}
+.website-padding-16{
+    padding-top:16px!important;
+    padding-bottom:16px!important;
+}
+.website-padding-24{
+    padding-top:24px!important;
+    padding-bottom:24px!important;
+}
+.website-padding-32{
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+}
+.website-padding-48{
+    padding-top:48px!important;
+    padding-bottom:48px!important;
+}
+.website-padding-64{
+    padding-top:64px!important;
+    padding-bottom:64px!important;
 }
