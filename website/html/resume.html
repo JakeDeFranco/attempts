@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jake De Franco - Resume</title>
+
+        <link rel="stylesheet" type="text/css" href="../static/css/styles-common.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="../static/css/styles-mobile.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 501px) and (max-width: 1100px)" href="../static/css/styles-laptop.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1101px) and (max-width: 1800px)" href="../static/css/styles-monitor.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1801px)" href="../static/css/styles-monitor-wide.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/48fcb9931e.js" crossorigin="anonymous"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Jake De Franco Online Portfolio Resume Page">
+        <meta name="keywords" content="Jake De Franco resume jakedefranco jake.defranco csv ">
+        <meta name="author" content="Jake De Franco">
+    </head>
+    <body>
+        <header id="header" class="tertiary-theme-background-color">
+            <div id="header-title" class="website-title">
+                <a href="../index.html" class="panel no-decoration">
+                    <div class="panel-item">
+                        <h1>De-Franco Developer</h1>
+                    </div>
+                    <div class="panel-item">
+                        <img src="../static/images/website-logo/gears.png" class="website-logo" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <nav id="header-global-nav" class="global-nav right">
+                <ul id="header-nav-list-items" class="header-ul right">
+                    <li id="about-me-tab" class="header-tab">
+                        <a href="./about_me.html" class="no-decoration">
+                            <strong>About Me</strong>
+                        </a>
+                    </li>
+                    <li id="past-projects-tab" class="header-tab">
+                        <a href="./past_projects.html" class="no-decoration">
+                            <strong>Past Projects</strong>
+                        </a>
+                    </li>
+                    <li id="resume-tab" class="active-header-tab">
+                        <a href="./resume.html" class="no-decoration">
+                            <strong>Resume</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="header-quick-links" class="quick-links">
+                <ul class="header-ul">
+                    <li class="quick-link">
+                        <a href="https://github.com/JakeDeFranco" target="_blank">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                    <li class="quick-link">
+                       <a href="https://www.linkedin.com/in/jake-defranco-developer/" target="_blank">
+                           <i class="fab fa-linkedin"></i>
+                       </a>
+                    </li>
+                    <li class="quick-link">
+                       <a href="https://www.instagram.com/jake.defranco" target="_blank">
+                           <i class="fab fa-instagram"></i>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main id="main-section">
+            <aside id="main-aside">
+                <nav id="fixed-side-nav" class="sidenav secondary-theme-font-color tertiary-theme-background-color">
+                    <ul class="sidenav-ul">
+                        <li id="technical-skills-tab" class="active-sidenav-tab">
+                            <a href="#my-technical-skills" class="no-decoration panel" id="technical-skills" onclick="updateSidenav(this)">
+                                Technical Skills
+                            </a>
+                        </li>
+                        <li id="past-experience-tab" class="sidenav-tab">
+                            <a href="#my-past-experience" class="no-decoration panel" id="past-experience" onclick="updateSidenav(this)">
+                                Past Experience
+                            </a>
+                        </li>
+                        <li id="education-tab" class="sidenav-tab">
+                            <a href="#my-education" class="no-decoration panel" id="education" onclick="updateSidenav(this)">
+                                Education
+                            </a>
+                        </li>
+                        <li id="resume-download-tab" class="sidenav-tab">
+                            <a href="#my-resume-download" class="no-decoration panel" id="resume-download" onclick="updateSidenav(this)">
+                                Full Resume Download
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </aside>
+            <article id="main-article">
+                <div id="my-technical-skills" class="article-sub-section">
+                    <div class="banner main-theme-background-color tertiary-theme-font-color">
+                        <h2 class="banner-title">My Technical Skills</h2>
+                    </div>
+                    <div class="article-section tertiary-theme-font-color">
+
+                        <h3 class="website-left-align website-margin-left">
+                            <i class="fas fa-desktop"></i>
+                            Front End
+                        </h3>
+                        <br>
+                        <div id="frontend-first-panel" class="panel">
+                            <div id="html-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-html5"></i>
+                                    HTML 5
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:80%">
+                                        <div class="status-bar-text">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="css-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-css3-alt"></i>
+                                    CSS 3
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:80%">
+                                        <div class="status-bar-text">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="frontend-second-panel" class="panel">
+                            <div id="vue-js-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-vuejs"></i>
+                                    Vue.js
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:60%">
+                                        <div class="status-bar-text">60%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="react-js-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-react"></i>
+                                    React.js
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:40%">
+                                        <div class="status-bar-text">40%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="frontend-third-panel" class="panel">
+                            <div id="flask-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-affiliatetheme"></i>
+                                    Flask
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:80%">
+                                        <div class="status-bar-text">80%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="jinja-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    Mobile Development
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:25%">
+                                        <div class="status-bar-text">25%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br><br>
+
+                        <h3 class="website-left-align website-margin-left">
+                            <i class="fas fa-laptop-code"></i>
+                            Back End
+                        </h3>
+                        <br>
+                        <div id="backend-first-panel" class="panel">
+                            <div id="python-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-python"></i>
+                                    Python
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:90%">
+                                        <div class="status-bar-text">90%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="java-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-java"></i>
+                                    Java
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:85%">
+                                        <div class="status-bar-text">85%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="backend-second-panel" class="panel">
+                            <div id="database-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fas fa-database"></i>
+                                    SQL
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:70%">
+                                        <div class="status-bar-text">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="git-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-git-alt"></i>
+                                    GIT
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:90%">
+                                        <div class="status-bar-text">90%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="backend-third-panel" class="panel">
+                            <div id="c-plus-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fas fa-plus-square"></i>
+                                    C++
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:40%">
+                                        <div class="status-bar-text">40%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="docker-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-docker"></i>
+                                    Docker
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:50%">
+                                        <div class="status-bar-text">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="backend-fourth-panel" class="panel">
+                            <div id="computer-programming-language-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fas fa-file-code"></i>
+                                    C
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:40%">
+                                        <div class="status-bar-text">40%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="linux-status-bar" class="status-bar-container">
+                                <p class="status-bar-title">
+                                    <i class="fab fa-linux"></i>
+                                    Linux
+                                </p>
+                                <div class="blank-status-bar">
+                                    <div class="status-bar" style="width:70%">
+                                        <div class="status-bar-text">70%</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="my-past-experience" class="article-sub-section">
+                    <div class="banner main-theme-background-color tertiary-theme-font-color">
+                        <h2 class="banner-title">My Past Experience</h2>
+                    </div>
+                    <div id="time-line">
+                        <button id="fis-2015-tab" class="tablink" onclick="openPage('fis-2015', this, '#94c04c')">
+                            <p class="website-large"><strong>2015</strong></p><hr>
+                            <p class="website-medium"><strong>Quality Assurance <br> Analyst</strong></p>
+                            <p class="website-medium">FIS Solutions Canada</p>
+                        </button>
+                        <button id="bmo-2016-tab" class="tablink" onclick="openPage('bmo-2016', this, '#297ab3')">
+                            <p class="website-large"><strong>2016</strong></p><hr>
+                            <p class="website-medium"><strong>Information-Technology <br> and Development</strong></p>
+                            <p class="website-medium">BMO</p>
+                        </button>
+                        <button id="thinnox-2017-tab" class="tablink" onclick="openPage('thinnox-2017', this, '#f4633e')">
+                            <p class="website-large"><strong>2017</strong></p><hr>
+                            <p class="website-medium"><strong>Computer Science <br>Camp Counsellor</strong></p>
+                            <p class="website-medium">Thinnox Design Academy</p>
+                        </button>
+                        <button id="points-2018-tab" class="tablink" onclick="openPage('points-2018', this, '#43caf5')">
+                            <p class="website-large"><strong>2018 - 2019</strong></p><hr>
+                            <p class="website-medium"><strong>Development Engineer <br>(Co-op)</strong></p>
+                            <p class="website-medium">Points International LTD.</p>
+                        </button>
+                        <button id="points-2020-tab" class="tablink" onclick="openPage('points-2020', this, '#43caf5')">
+                            <p class="website-large"><strong>2020 - Present</strong></p><hr>
+                            <p class="website-medium"><strong>Development Engineer <br>(Full-Time)</strong></p>
+                            <p class="website-medium">Points International LTD.</p>
+                        </button>
+
+                        <div id="fis-2015" class="tabcontent">
+                            <div class="panel">
+                                <img class="floating-side-img" src="../static/images/companies/fis-global.jpg" alt="FIS-LOGO">
+                                <div class="floating-description">
+                                    <br>
+                                    <h3 class="website-xxlarge centered"><strong>FIS Solutions Canada</strong></h3>
+                                    <h5 class="centered">QA Analyst - <i>Summer of 2015</i></h5><hr>
+                                    <ul class="website-left-align website-padding-small website-medium">
+                                        <li>
+                                            Worked as a QA analyst on a software development team whose objective was to deliver wealth
+                                            management software for large financial institutions.
+                                        </li>
+                                        <li>
+                                            Was apart of an agile team and participated in ceremonies with the team, which included daily
+                                            scrum meetings, sprint planning and sprint retrospective meetings.
+                                        </li>
+                                        <li>
+                                            Wrote structured test scripts based on detailed specification documents from BAs and ensured
+                                            they were tested and that the results got back to the developers as soon as possible to fix any issues.
+                                        </li>
+                                        <li>
+                                            These tests involved inspecting the product’s GUI as well as looking through an SQL table to ensure
+                                            that the correct data had been stored.
+                                        </li>
+                                        <li>
+                                            Upon finding an issue, it was documented and then reported the developers where I would then
+                                            support the developer to resolve the issue and retested.
+                                        </li>
+                                    </ul>
+                                    <p class="website-large centered">
+                                        <strong>Main Technologies: Microsoft Excel, Sybase, ORACLE</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bmo-2016" class="tabcontent">
+                            <div class="panel">
+                                <img class="floating-side-img" src="../static/images/companies/bank-of-montreal.jpg" alt="BMO-LOGO">
+                                <div class="floating-description">
+                                    <br>
+                                    <h3 class="website-xlarge centered"><strong>BMO - Customer Information Payment Gateway (CIPG)</strong></h3>
+                                    <h5 class="centered">IT and Development - <i>Summer of 2016</i></h5><hr>
+                                    <ul class="website-left-align website-padding-small website-medium">
+                                        <li>
+                                            Worked on two development tasks involving a password rule change and an altering encryption protocol.
+                                        </li>
+                                        <li>
+                                            Researched and created an interactive web-based diagram of the BMO payment systems that interact with CIPG.
+                                        </li>
+                                        <li>
+                                            After interviewing the developers in CIPG, consolidated their knowledge, prioritized which factors were most important
+                                            to keep and how best to order the data.
+                                        </li>
+                                        <li>
+                                            Presented and demonstrated the final product to the team, as well as my supervisors, and created documentation on
+                                            how to use the system.
+                                        </li>
+                                        <li>
+                                            Facilitated and documented the outcomes from a team meeting focused on how to improve the workplace as a part of
+                                            an employee satisfaction survey.
+                                        </li>
+                                    </ul>
+                                    <p class="website-large centered">
+                                        <strong>Main Technologies: Microsoft Visio, BMO specific software</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="thinnox-2017" class="tabcontent">
+                            <div class="panel">
+                                <img class="floating-side-img" src="../static/images/companies/thinnox-design-academy-white.jpg" alt="THINNOX-LOGO">
+                                <div class="floating-description">
+                                    <br>
+                                    <h3 class="website-xxlarge centered"><strong>Thinnox Design Academy</strong></h3>
+                                    <h5 class="centered">Computer Science Camp Counsellor - <i>Summer of 2017</i></h5><hr>
+                                    <ul class="website-left-align website-padding-small website-medium">
+                                        <li>
+                                            Taught elementary school to high school students the basics of computer programming in
+                                            Python, Java, C, C++, HTML and CSS.
+                                        </li>
+                                        <li>
+                                            Created worksheets, with questions ranging in difficulty for the students, to ensure that the students
+                                            were understanding the topics covered in class. This assisted with the base lesson plans.
+                                        </li>
+                                        <li>
+                                            Lessons included basic software design principles and how to create unit tests for their projects
+                                            to ensure that their code worked as intended.
+                                        </li>
+                                        <li>
+                                            Student’s final projects included games, websites or simple AIs.
+                                        </li>
+                                        <li>
+                                            Encouraged questions from both the students and their parents to ensure that the students
+                                            understood the material and that the course met the parent’s expectations.
+                                        </li>
+                                    </ul>
+                                    <p class="website-large centered">
+                                        <strong>Main Technologies: Python, Java, C, C++, HTML and CSS</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="points-2018" class="tabcontent">
+                            <div class="panel">
+                                <img class="floating-side-img" src="../static/images/companies/points-international.jpg" alt="POINTS-LOGO">
+                                <div class="floating-description">
+                                    <br>
+                                    <h3 class="website-xxlarge centered"><strong>Points International LTD.</strong></h3>
+                                    <h5 class="centered">Development Engineer (Co-op) - <i>May 2018 - Sept 2019</i></h5><hr>
+                                    <ul class="website-left-align website-padding-small website-medium">
+                                        <li>
+                                            Worked on the Loyalty Commerce Platform team, developing new features and improving
+                                            existing features of the platform’s API.
+                                        </li>
+                                        <li>
+                                            Participated in Agile ceremonies with the team, which included daily scrum meetings, sprint
+                                            planning and sprint retrospective meetings.
+                                        </li>
+                                        <li>
+                                            Created a load test application that would test the capabilities of the platform API and
+                                            measured response times to determine the maximum load the API could handle.
+                                        </li>
+                                        <li>
+                                            Reviewed other developer’s work (peer review) and provided constructive feedback. Also ensured
+                                            that their solution was properly tested.
+                                        </li>
+                                        <li>
+                                            Developed unit test on other developer’s code to ensure that their code ran successfully and
+                                            met the goal of the task highlighted in the story.
+                                        </li>
+                                    </ul>
+                                    <p class="website-large centered">
+                                        <strong>Main Technologies: Python, PostgreSQL, Locust, Git, JIRA</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="points-2020" class="tabcontent">
+                            <div class="panel">
+                                <img class="floating-side-img" src="../static/images/companies/points-international.jpg" alt="POINTS-LOGO">
+                                <div class="floating-description">
+                                    <br>
+                                <h3 class="website-xxlarge centered"><strong>Points International LTD.</strong></h3>
+                                <h5 class="centered">Development Engineer (Full-Time) - <i>May 2020 - Present</i></h5><hr>
+                                <ul class="website-left-align website-padding-small website-medium">
+                                    <li>
+                                        Something something integrations.
+                                    </li>
+                                    <li>
+                                        Participated in Agile ceremonies with the team, which included daily scrum meetings, sprint
+                                        planning and sprint retrospective meetings.
+                                    </li>
+                                    <li>
+                                        Worked on their UI/Console in HTML/CSS, Bootstrap and Vue.js
+                                    </li>
+                                    <li>
+                                        Reviewed other developer’s work (peer review) and provided constructive feedback. Also ensured
+                                        that their solution was properly tested.
+                                    </li>
+                                    <li>
+                                        SSO Stuff ?
+                                    </li>
+                                    </ul>
+                                    <p class="website-large centered">
+                                        <strong>Main Technologies: Java, Vue.js, PostgreSQL, FTP/SFTP, JIRA</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="my-education" class="article-sub-section">
+                    <div class="banner main-theme-background-color tertiary-theme-font-color">
+                        <h2 class="banner-title">My Education</h2>
+                    </div>
+                    <div class="website-block utm-color">
+                        <div class="panel">
+                            <img class="small-floating-side-img" src="../static/images/companies/university-of-toronto-mississauga-blue-on-white.png" alt="UTM-LOGO">
+                            <div class="floating-description">
+                                <br><br><br>
+                                <h3 class="website-xxlarge centered">University of Toronto</h3>
+                                <h5 class="centered">Mississauga Campus - <i>Graduated April 2020</i></h5><hr><br>
+                                <h5>
+                                    Graduated with a major in Computer-Science and a minors in Mathematics
+                                    and Economics.
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="my-resume-download" class="article-sub-section">
+                    <div class="banner main-theme-background-color tertiary-theme-font-color">
+                        <h2 class="banner-title">My Full Resume</h2>
+                    </div>
+                    <div class="website-block utm-color">
+                        <div class="panel">
+
+                            <img class="small-floating-side-img" src="../static/files/resume-preview-screenshot.png" alt="RESUME-SCREENSHOT">
+                            <div class="floating-description">
+                                <br><br><br>
+                                <h3 class="website-xxlarge centered">Download My Full Resume</h3>
+                                <hr>
+                                <button style="width:100%;">
+                                    <a href="../static/files/Jake-De-Franco-Resume-2020.pdf" target="_blank"  class="no-decoration">
+                                        <div class="panel website-xlarge">
+                                            <i class="fas fa-file-download website-xxlarge"></i>
+                                            You can view and download my resume here
+                                        </div>
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <script type="text/javascript">
+            function openPage(pageName,elmnt,color) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                }
+                document.getElementById(pageName).style.display = "block";
+                elmnt.style.backgroundColor = color;
+            }
+
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("points-2020-tab").click();
+
+            function updateSidenav(element) {
+                var activeSidenavTab = document.getElementsByClassName("active-sidenav-tab")[0];
+                var elementTab = document.getElementById(element.id + "-tab");
+
+                if (activeSidenavTab.id != elementTab.id) {
+                    elementTab.classList.toggle("active-sidenav-tab");
+                    elementTab.classList.toggle("sidenav-tab");
+                    activeSidenavTab.classList.toggle("active-sidenav-tab");
+                    activeSidenavTab.classList.toggle("sidenav-tab");
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,292 @@
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
+
+    h1{font-size:20px}
+    h2{font-size:18px}
+    h3{font-size:16px}
+    h4{font-size:14px}
+    h5{font-size:12px}
+    h6{font-size:10px}
+    .website-tiny{font-size:8px;}
+    .website-small{font-size:10px!important;}
+    .website-medium{font-size:12px!important;}
+    .website-large{font-size:14px!important;}
+    .website-xlarge{font-size:16px!important;}
+    .website-xxlarge{font-size:24px!important;}
+    .website-xxxlarge{font-size:36px!important;}
+    .website-jumbo{font-size:48px!important;}
+
+    :target::before {
+        height: 60px; /* fixed header height*/
+        margin: -60px 0 0; /* negative fixed header height */
+    }
+
+    /* Icon Styles */
+    i {margin-right: 16px;}
+
+    .small-icon {
+        margin-right:20px!important;
+        margin-left:5px!important;
+    }
+
+    .status-bar-title i {
+        font-size: 25px;
+    }
+
+    /* Global Navigation Components */
+    header {
+        height: 60px;
+    }
+
+    .website-title {
+        height: 40px;
+        width: 45%;
+        padding-left: 10px;
+    }
+
+    .website-title h1 {
+        font-size: 30px;
+    }
+
+    .website-logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    .global-nav {
+        width: 40%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        font-size: 15px;
+    }
+
+    .header-ul {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .header-tab, .active-header-tab {
+        width: 30%;
+        font-size: 16px;
+    }
+
+    .quick-links {
+        width: 15%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        padding-right: 30px;
+    }
+
+    .quick-link a {
+        width: 33%;
+        font-size: 18px;
+    }
+
+    .banner {
+        height: 100px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    .banner-title {
+        padding-top: 20px;
+        font-size: 30px;
+        opacity: 1;
+    }
+
+    /* Home Page Styles */
+    .hero-text h1 {
+        font-size: 90px;
+    }
+
+    .hero-text p {
+        font-size: 24px;
+    }
+
+    .hero-text button {
+        font-size: 15px;
+    }
+
+    /* Aside + Side-nav Styles */
+    aside {
+        width: 27%;
+        padding-left: 2%;
+    }
+
+    .aside-img {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .sidenav {
+        max-height: 100%;
+        margin-top: 70px;
+        width: 27%;
+    }
+
+    .sidenav-tab, .active-sidenav-tab {
+        padding: 6px 8px 6px 16px;
+        font-size: 16px;
+    }
+
+    /* Resume Page Styles */
+    article {
+        width: 65%;
+        margin-left: 35%;
+        margin-right: 2%;
+    }
+
+    .article-section {
+        padding: 0px 50px;
+    }
+
+    .status-bar-container {
+        width: 45%;
+        margin-bottom: 10px;
+        margin-right: 5%;
+    }
+
+    .status-bar-title {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .blank-status-bar{
+        border-radius:10px;
+        font-size: 14px;
+        width: 90%;
+        height: 23px;
+    }
+
+    .status-bar {
+        width:80%;
+        border-radius:10px;
+        height: 23px;
+    }
+
+    .tablink {
+        padding: 7px 8px;
+        font-size: 14px;
+        width: 20%;
+        height: 170px;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        padding: 100px 20px;
+        height: 600px;
+        margin-bottom: 50px;
+    }
+
+    .floating-side-img, .small-floating-side-img {
+        width: 25%;
+        padding: 10px;
+        margin-top: 100px;
+    }
+
+    .small-floating-side-img {
+        margin-top: 25px;
+    }
+
+    .floating-side-img {
+        width: 25%;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .floating-description {
+        width: 73%;
+        padding-left: 10px;
+    }
+
+    .website-block {
+        margin-bottom: 20px;
+    }
+
+    /* Past Projects Page Styles*/
+    .side-tab {
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    /* Cool Buttons */
+    button {
+        height: 45px;
+        width: 215px;
+
+    }
+
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+    .project-button {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        width: 300px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+
+    .project-button:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .project-button-image {
+        width: 300px;
+        height: 200px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .project-button-description {
+        font-size: 15px;
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+
+    /* The Modal (background) */
+    .modal {
+        padding-top: 100px; /* Location of the box */
+    }
+
+    /* Modal Content (image) */
+    .modal-content {
+        max-width: 600px;
+        max-height: 500px;
+    }
+
+    /* Caption of Modal Image */
+    .caption {
+        width: 80%;
+        max-width: 700px;
+        padding: 10px 0;
+        height: 250px;
+    }
+
+    .caption p {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* The Close Button */
+    .close {
+        font-size: 40px;
+    }
+
+    /* About Me Page Styles */
+    .main-container {
+        width: 100%;
+        padding: 0;
+        min-height: 100%;
+        min-height: 900px;
+    }
+
+    .about-me-article {
+        margin-top: 50px;
+    }
+
+}

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Jake De Franco - Past Projects</title>
+
+        <link rel="stylesheet" type="text/css" href="../static/css/styles-common.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width: 500px)" href="../static/css/styles-mobile.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 501px) and (max-width: 1100px)" href="../static/css/styles-laptop.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1101px) and (max-width: 1800px)" href="../static/css/styles-monitor.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (min-width: 1801px)" href="../static/css/styles-monitor-wide.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/48fcb9931e.js" crossorigin="anonymous"></script>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Jake De Franco Online Portfolio Resume Page">
+        <meta name="keywords" content="Jake De Franco projects python java code jakedefranco jake.defranco csv ">
+        <meta name="author" content="Jake De Franco">
+    </head>
+    <body>
+        <header id="header" class="tertiary-theme-background-color">
+            <div id="header-title" class="website-title">
+                <a href="../index.html" class="panel no-decoration">
+                    <div class="panel-item">
+                        <h1>De-Franco Developer</h1>
+                    </div>
+                    <div class="panel-item">
+                        <img src="../static/images/website-logo/gears.png" class="website-logo" alt="Logo">
+                    </div>
+                </a>
+            </div>
+            <nav id="header-global-nav" class="global-nav right">
+                <ul id="header-nav-list-items" class="header-ul right">
+                    <li id="about-me-tab" class="header-tab">
+                        <a href="./about_me.html" class="no-decoration">
+                            <strong>About Me</strong>
+                        </a>
+                    </li>
+                    <li id="past-projects-tab" class="active-header-tab">
+                        <a href="./past_projects.html" class="no-decoration">
+                            <strong>Past Projects</strong>
+                        </a>
+                    </li>
+                    <li id="resume-tab" class="header-tab">
+                        <a href="./resume.html" class="no-decoration">
+                            <strong>Resume</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="header-quick-links" class="quick-links">
+                <ul class="header-ul">
+                    <li class="quick-link">
+                        <a href="https://github.com/JakeDeFranco" target="_blank">
+                            <i class="fab fa-github-square"></i>
+                        </a>
+                    </li>
+                    <li class="quick-link">
+                       <a href="https://www.linkedin.com/in/jake-defranco-developer/" target="_blank">
+                           <i class="fab fa-linkedin"></i>
+                       </a>
+                    </li>
+                    <li class="quick-link">
+                       <a href="https://www.instagram.com/jake.defranco" target="_blank">
+                           <i class="fab fa-instagram"></i>
+                       </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main id="main-section">
+
+            <h2 class="margin-left">Personal Projects</h2>
+            <br>
+
+            <div id="personal-projects-panel" class="panel">
+                <div id="2021-this-website-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="2021-this-website-button-img" class="project-button-image" src="../static/images/projects/2021/website-homepage.png" alt="ThisWebsite-2021">
+                    <div class="container">
+                        <h4><b>This Website</b></h4>
+                        <p class="project-button-description">
+                            Created for fun using HTML, CSS, JavaScript & Python
+                        </p>
+                    </div>
+                </div>
+
+                <div id="tbd-bank-statement-reader-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="tbd-bank-statement-reader-button-img" class="project-button-image" src="../static/images/projects/2021/bank-statement-cartoon.png" alt="MobileValueConverter-tbd">
+                    <div class="container">
+                        <h4><b>Bank Statement Reader</b></h4>
+                        <p class="project-button-description">
+                            Summer to Winter 2021<br>
+                            Stack: Just Python (so far)
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="margin-left">Hackathon Projects</h2>
+            <br>
+
+            <div id="points-hackathon-projects-panel" class="panel">
+                <div id="2021-vaccine-tracker-app-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="2021-vaccine-tracker-app-button-img" class="project-button-image" src="../static/images/projects/2021/returning-to-the-office/logo-art-on-white.jpg" alt="ReturningToTheOffice-2021">
+                    <div class="container">
+                        <h4><b>Vaccine Tracker App</b></h4>
+                        <p class="project-button-description">
+                            Created in Points Hackathon using HTML, CSS, React.js & Python
+                        </p>
+                    </div>
+                </div>
+
+                <div id="2021-bamboohr-slackbot-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="2021-bamboohr-slackbot-button-img" class="project-button-image" src="../static/images/companies/slack-bot.png" alt="BambooHRSlackbot-2021">
+                    <div class="container">
+                        <h4><b>BambooHr SlackBot</b></h4>
+                        <p class="project-button-description">
+                            Created in Points Hackathon using Slack & Python
+                        </p>
+                    </div>
+                </div>
+
+                <div id="2020-interview-server-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="2020-interview-server-button-img" class="project-button-image" src="../static/images/projects/2020/test-api-server-funny.jpg" alt="PointsInterviewServer-2020">
+                    <div class="container">
+                        <h4><b>Points Interview Server</b></h4>
+                        <p class="project-button-description">
+                           Created in Points Hackathon using HTML, CSS, JavaScript & Python
+                        </p>
+                    </div>
+                </div>
+
+                <div id="2020-office-seating-app-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="2020-office-seating-app-button-img" class="project-button-image" src="../static/images/projects/2020/office-seating-application/floor-format.png" alt="OfficeSeatingApp-2020">
+                    <div class="container">
+                        <h4><b>Office Seating Map App</b></h4>
+                        <p class="project-button-description">
+                            Created in Points Hackathon using HTML, CSS & Python
+                        </p>
+                    </div>
+                </div>
+
+                <div id="2018-gift-the-code-button" class="project-button centered" onclick="openModal(this)">
+                    <img id="2018-gift-the-code-button-img" class="project-button-image" src="../static/images/projects/2018/gift-the-code/logo-art.jpeg" alt="GiftTheCode-2018">
+                    <div class="container">
+                        <h4><b>Mo-Coins </b></h4>
+                        <p class="project-button-description">
+                            Created for Gift The Code hackathon using Python
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="modals">
+                <div id="2021-this-website-modal" class="modal">
+                    <span class="close" onclick="closeModal('2021-this-website-modal')">&times;</span>
+                    <img class="modal-content" id="2021-this-website-img">
+                    <div class="caption" id="2021-this-website-caption">
+                        <h3>2021: This Website</h3><hr>
+                        <p>
+                            I started working on this in 2021 for fun to grow my front end skills as well as building
+                            a professional resume and profile after I graduated University and wanted to start my
+                            career.
+                            <br><br>
+                            <strong>Tech Stack:</strong> HTML, CSS, JavaScript & Python (React.js soon to come)
+                        </p>
+                    </div>
+                </div>
+                <div id="tbd-bank-statement-reader-modal" class="modal">
+                    <span class="close" onclick="closeModal('tbd-bank-statement-reader-modal')">&times;</span>
+                    <img  class="modal-content" id="tbd-bank-statement-reader-img">
+                    <div  class="caption" id="tbd-bank-statement-reader-caption">
+                        <h3>TBD: Bank Statement Reader</h3><hr>
+                        <p>
+                            I started working on this application in order to better track where my money was going
+                            every month and year. It started off as a command line interface that read static Excel,
+                            CVS and PDF files, but it will later turn into a more user friendly web application or
+                            mobile app.
+                            <br><br>
+                            <strong>Tech Stack:</strong> Python
+                        </p>
+                    </div>
+                </div>
+                <div id="2021-vaccine-tracker-app-modal" class="modal">
+                    <span class="close" onclick="closeModal('2021-vaccine-tracker-app-modal')">&times;</span>
+                    <img class="modal-content" id="2021-vaccine-tracker-app-img">
+                    <div class="caption">
+                        <h3>2021: Ontario Vaccine Tracker</h3><hr>
+                        <p>
+                            Myself and 4 others worked together during a Points Hackathon to develop a web application
+                            that would track the number of vaccines administered to Ontarian's & Torontonian's via a
+                            real time API, as well as Points employees. Based on the information and the rate of change
+                            the web application would predict what date we should be able to go back into the office.
+                            <br><br>
+                            <strong>Tech Stack:</strong> HTML, CSS, React.js, Python & MySQL
+                        </p>
+                    </div>
+                </div>
+                <div id="2021-bamboohr-slackbot-modal" class="modal">
+                    <span class="close" onclick="closeModal('2021-bamboohr-slackbot-modal')">&times;</span>
+                    <img class="modal-content" id="2021-bamboohr-slackbot-img">
+                    <div class="caption">
+                        <h3>2021: A BambooHR Slackbot</h3><hr>
+                        <p>
+                            This project would help streamline the process of generating an employee's employment letter
+                            or proof of employment letter. The HR rep would interact with a user friendly Slackbot within
+                            Slack, that connects to BambooHR via it's API to get the employee information and then
+                            generate a PDF file that would be emailed to the HR rep and employee.
+                            <br><br>
+                            <strong>Tech Stack:</strong> Slack API, HTML, CSS & Python
+                        </p>
+                    </div>
+                </div>
+                <div id="2020-interview-server-modal" class="modal">
+                    <span class="close" onclick="closeModal('2020-interview-server-modal')">&times;</span>
+                    <img class="modal-content" id="2020-interview-server-img">
+                    <div class="caption">
+                        <h3>2020: Points Interview Test Server</h3><hr>
+                        <p>
+                            This project was created to help and further test new Points dev applicants. The interview
+                            test server would display the dev assignments instructions and how the applicant could
+                            interact with the server via API requests. The applicant would then use the response in some
+                            way (differ's by assignment).
+                            <br><br>
+                            <strong>Tech Stack:</strong> HTML, CSS, Python & Docker
+                        </p>
+                    </div>
+                </div>
+                <div id="2020-office-seating-app-modal" class="modal">
+                    <span class="close" onclick="closeModal('2020-office-seating-app-modal')">&times;</span>
+                    <img class="modal-content" id="2020-office-seating-app-img">
+                    <div class="caption">
+                        <h3>2020: Office Seating Web Application</h3><hr>
+                        <p>
+                            Due to the COVID-19 Pandemic, office seating became more complicated due to no assigned
+                            seats, 6 foot desk separation, and if someone takes a desk, it needs to be cleaned before
+                            another employee could take the desk. This web application would help manage what seats are
+                            taken or need to be cleaned, as well as helping employees to find each other.
+                            <br><br>
+                            <strong>Tech Stack:</strong> QR Code generator, HTML, CSS, Python & MySQL
+                        </p>
+                    </div>
+                </div>
+                <div id="2018-gift-the-code-modal" class="modal">
+                    <span class="close" onclick="closeModal('2018-gift-the-code-modal')">&times;</span>
+                    <img class="modal-content" id="2018-gift-the-code-img">
+                    <div class="caption">
+                        <h3>2018: Movember Loyalty Points 'Mo-Coins'</h3><hr>
+                        <p>
+                            During the Gift-The-Code hackathon, my team developed a loyalty program (Mo-Coins) for the
+                            Movember foundation, that could be used to boost donations or ____. The user would then be
+                            able to use their Mo-Coins to buy SWAG and other prizes. My team was able to set up a
+                            database of sample users and how many mo-coins they have.
+                            <br><br>
+                            <strong>Tech Stack:</strong> Python & PostgreSQL
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <script>
+
+            function closeModal(modalId) {
+                document.getElementById(modalId).style.display = "none";
+            }
+      
+            function openModal(element) {
+
+                var currentModal = document.getElementById((element.id).replace("button", "modal"));
+                var currentImg = document.getElementById(element.id + "-img");
+                var currentModalImg = document.getElementById((element.id).replace("button", "img"));
+                var currentModalCaption = document.getElementById((element.id).replace("button", "caption"));
+
+                currentModal.style.display = "block";
+                currentModalImg.src = currentImg.src
+            }
+
+            modals = document.getElementsByClassName("modal");
+
+            window.onclick = function(event) {
+                for (i = 0; i < modals.length; i++) {
+                    if (event.target == modals[i]) {
+                        modals[i].style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
